@@ -1,0 +1,30 @@
+[package]
+name = "xef"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pedro Luz <pedromsluz@gmail.com>"]
+license = "MIT"
+include = [
+  "src/**/*",
+  "Cargo.toml",
+  "README.md",
+  "LICENSE"
+]
+homepage = "https://github.com/Narven/xef"
+repository = "https://github.com/Narven/xef"
+description = "Xef allows users to create and use reuse file/folders templates"
+keywords = [
+  "cli",
+  "generator",
+  "command-line",
+  "templates",
+  "tool"
+]
+categories = [
+  "command-line-interface"
+]
+
+[dependencies]
+clap = { version = "4.5.3", features = ["derive", "cargo"] }
+askama = "0.12.1"
+colored = "2.1.0"

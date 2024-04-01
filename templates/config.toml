@@ -1,0 +1,11 @@
+version = {{ version }}
+
+[project]
+name = {{ name }}
+path = {{ path }}
+description = {{ description }}
+
+[[variables]]
+[[variables.name]]
+type = "string"
+description = "Your name"
